@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Portfolio">
+  <meta name="author" content="Saravana Priyan">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="resume.css">
+  <script src="https://kit.fontawesome.com/493e951752.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div id="header">
+    <div class="container">
+      <nav>
+        <h1 class="logo"><span>S</span>aravana.</h1>
+        <ul id="sidemenu">
+          <li><a href="#header">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Service</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <i class="fas fa-times" onclick="closemenu()"></i>
+        </ul>
+        <i class="fas fa-bars" onclick="openmenu()"></i>
+      </nav>
+
+      <div class="header-text">
+        <p>Full Stack Developer</p>
+        <h1>Hi, I'm <span> Saravana </span> Priyan <br> From India</h1>
+      </div>
+    </div>
+  </div>
+  <!-----about------>
+  <div id="about">
+    <div class="container">
+      <div class="row">
+        <div class="about-co1">
+          <img src="/img/about.jpg" alt="photo">
+        </div>
+        <div class="about-co2">
+          <h1 class="sub-title">About Me</h1>
+          <p>Solution-driven FullSatck developer adept at contributing to highly collaborative work environment and finding solutions. Proven experience developing consumer-focused websites using HTML, CSS, and JavaScript. Good knowledge of the best practices for web design, user experience, and speed.</p>
+
+          <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+            <p class="tab-links" onclick="opentab('education')">Education</p>
+          </div>
+          <div class="tab-contents active-tab" id="skills">
+            <ul>
+              <li><span>Front End Developer</span><br>implementing visual elements that users see and interact with in a web application.</li>
+              <li><span>HTML and CSS</span><br>HTML (Hyper Text Markup Language) dictates the content and structure of a webpage, while CSS (Cascading Style Sheets) is responsible for the design.</li>
+              <li><span>Java Script</span><br>Adding interactive behavior to web pages.</li>
+              <li><span>Bootstrap</span><br>Designed to enable responsive development of mobile-first websites, Bootstrap provides a collection of syntax for template designs.
+              </li>
+              <li><span>React JS.</span><br>To build web, mobile, and desktop applications, making it a versatile framework for cross-platform development. React Native, a framework based on React, is specifically designed for mobile app development, while React Desktop allows you to create desktop applications using web technologies.</li>
+              <li><Span>Back End Developer</Span></li>
+              Automate processes and tasks using Python scripts and tools to improve efficiency and reduce manual effort. Manage databases and data storage: Manage databases and data storage systems, including MySql databases, to ensure data integrity and availability. <br>
+              <li><span>Python</span></li>Highly motivated and detail-oriented Fresher Python with a passion for developing innovative solutions. Skilled in writing clean and efficient code, collaborating with cross-functional teams, and identifying and fixing critical bugs. <br>
+              <li><span>MySql</span></li>Profoundly knowledgeable about a wide variety of data programs. Excellent ability to work independently or as a part of a team. Developed diagrams for Data Structure, Entity Relationship, and Data Flow.
+            </ul>
+          </div>
+          <div class="tab-contents" id="education">
+            <ul>
+              <li><span>2023</span><br>Full Stack Developer at Besant Technologies.</li>
+              <li><span>2023</span><br>B.E - Agricultural Engineering at University of SRM.</li>
+              <li><span>2019</span><br>Higher Secondary School at Latha Mathavan Group of Institution.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--------services----------->
+  <div id="services">
+    <div class="container">
+      <h1 class="sub-title">My Services</h1>
+      <div class="services-list">
+        <div>
+           <i class="fa-solid fa-code"></i>          
+          <h2>Web Design</h2>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla nobis ea corporis, obcaecati quos magni culpa voluptas aliquid tenetur saepe repellat at. Necessitatibus odio voluptas dolorum assumenda sed maxime cum!</p>
+          <a href="#">Learn more</a>
+        </div>
+        <div>
+          <i class="fa-solid fa-crop-simple"></i>
+          <h2>Web Development</h2>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla nobis ea corporis, obcaecati quos magni culpa voluptas aliquid tenetur saepe repellat at. Necessitatibus odio voluptas dolorum assumenda sed maxime cum!</p>
+          <a href="#">Learn more</a>
+        </div>
+        <div>
+          <i class="fa-brands fa-app-store-ios"></i>
+          <h2>Responsive Design</h2>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla nobis ea corporis, obcaecati quos magni culpa voluptas aliquid tenetur saepe repellat at. Necessitatibus odio voluptas dolorum assumenda sed maxime cum!</p>
+          <a href="#">Learn more</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-------portfolio-------->
+  <div id="portfolio">
+    <div class="container">
+      <h1 class="sub-title">Portfolio</h1>
+      <div class="work-list">
+        <div class="work">
+          <img src="/img/work-1.png" alt="work-1">
+          <div class="layer">
+            <h3>Social Media Website</h3>
+            <p>The Site connects you to the talented people around the world.Download it from play store.</p>
+            <a href="/media/media.html" target="_blank"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="/img/work-2.png" alt="work-2">
+          <div class="layer">
+            <h3>Music Website</h3>
+            <p>The Site connects you to the talented people around the world.Download it from play store.</p>
+            <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="/img/work-3.png" alt="work-3">
+          <div class="layer">
+            <h3>Online Shopping Website</h3>
+            <p>The Site connects you to the talented people around the world.Download it from play store.</p>
+            <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+      </div>
+      <a href="#" class="btn">See more</a>
+    </div>
+  </div>
+
+  <!--------Contact----------->
+
+  <div id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="contact-left">
+          <h1 class="sub-title">Contact Me</h1>
+          <p><i class="fa-solid fa-paper-plane"></i> u.saravanapriyan@gmail.com</p>
+          <p><i class="fa-solid fa-phone"></i> 9840869871</p>
+          <div class="social-icons">
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter-square"></i></a>
+            <a href="https://www.linkedin.com/in/contactsaravanapriyan/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+          </div>
+          <a href="/img/SARAVANA.pdf" download class="btn btn2">Download CV</a>
+        </div>
+        <div class="contact-right">
+          <form name="submit-to-google-sheet">
+            <input type="text" name="Name" placeholder="Your Name" required>
+            <input type="email" name="Email" placeholder="Your Email" required>
+            <textarea name="Message" rows="6" placeholder="Your Message / Feedback About the website"></textarea>
+            <button type="submit" class="btn btn2">Submit</button>
+          </form>
+          <span id="msg"></span>
+        </div>
+      </div>
+    </div>
+    <div class="copyright">
+      <p>Copyright &copy; Saravana Priyan<i class="fa-solid fa-heart"></i>.</p>
+    </div>
+  </div>
+
+  <script src="resume.js"></script>
+</body>
+</html>
